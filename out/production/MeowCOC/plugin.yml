@@ -1,0 +1,18 @@
+name: MeowCOC
+main: fun.miranda.MeowCOC
+version: 1.0.0
+author: Miranda
+description: 猫子的 COC 组件
+softdepend: [ ]
+load: POSTWORLD
+api-version: 1.20
+
+commands:
+  coc:
+    description: 主命令
+  pcget:
+    description: 获取角色的信息
+  pcset:
+    description: 设置角色的信息
+  pcshow:
+    description: 显示角色的所有信息
